@@ -39,7 +39,7 @@ class MainTabbarController: UITabBarController {
     }
 }
 
-// 처음 시작할 때 쓴 코드 - > 효율적이지 못함 test
+// 처음 시작할 때 쓴 코드 - > 효율적이지 못함 
 //func setUpTabbar() {
 //    print("MainTabbarController - setUpTabbar() called")
 //    let firstNC = UINavigationController.init(rootViewController: ViewController(title: "첫번째", bgColor: .blue))
