@@ -19,7 +19,7 @@ class MainTabbarController: UITabBarController {
         tabBar.unselectedItemTintColor = UIColor(named: "gray_white")
         tabBar.tintColor = .orange
         
-        let homeVC = navigationControllerSetup(unselectedImage: #imageLiteral(resourceName: "co_tabBar_home_nor"), selectedImage: #imageLiteral(resourceName: "co_tabBar_home_sel"), title: "Home", rootViewController: PostViewController())
+        let homeVC = navigationControllerSetup(unselectedImage: #imageLiteral(resourceName: "co_tabBar_home_nor"), selectedImage: #imageLiteral(resourceName: "co_tabBar_home_sel"), title: "Home", rootViewController: HomeViewController())
         let searchVC = navigationControllerSetup(unselectedImage: #imageLiteral(resourceName: "co_tabBar_search_nor"), selectedImage: #imageLiteral(resourceName: "co_tabBar_search_sel"), title: "Search", rootViewController: SearchViewController())
         let matchVC = navigationControllerSetup(unselectedImage: #imageLiteral(resourceName: "cell_match_nor"), selectedImage: #imageLiteral(resourceName: "co_tabBar_match_sel"), title: "Match", rootViewController: MatchViewController())
         let practiceVC = navigationControllerSetup(unselectedImage: #imageLiteral(resourceName: "co_tabBar_practice_nor"), selectedImage: #imageLiteral(resourceName: "co_tabBar_practice_sel"), title: "Practice", rootViewController: PracticeViewController())
