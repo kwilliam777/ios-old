@@ -7,4 +7,9 @@
 
 import UIKit
 
-
+class MessageViewController: BaseViewcontroller {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.title = "Message"
+    }
+}
